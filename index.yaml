@@ -2,8 +2,31 @@ apiVersion: v1
 entries:
   go-env:
   - apiVersion: v1
+    appVersion: 0.0.12
+    created: "2020-10-14T10:29:23.151678+02:00"
+    description: A Helm chart for go-env
+    digest: d9f21039220ed4afcf9391146e50081c76a44c9a2aab7586d067cc90910ebe18
+    keywords:
+    - go-env
+    - demo
+    - env
+    - environment
+    - variables
+    - variable
+    - go
+    - golang
+    maintainers:
+    - email: damian.janiszewski@gmail.com
+      name: Damian Janiszewski
+    name: go-env
+    sources:
+    - https://github.com/damianjaniszewski/go-env
+    urls:
+    - https://damianjaniszewski.github.io/charts/go-env-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v1
     appVersion: 0.0.10
-    created: "2020-08-02T11:18:41.852504+02:00"
+    created: "2020-10-14T10:29:23.150968+02:00"
     description: A Helm chart for go-env
     digest: 1771e850ef7f61a2542d9720b57d83438131fe3ead26f92fcd1d6178c156a2fc
     keywords:
@@ -26,7 +49,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: 0.0.10
-    created: "2020-08-02T11:18:41.851545+02:00"
+    created: "2020-10-14T10:29:23.150504+02:00"
     description: A Helm chart for go-env
     digest: 880f824f28d7960bd1c804122071b7466ce2c8d25809b394114916a9610a8744
     name: go-env
@@ -35,11 +58,11 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.0.10
-    created: "2020-08-02T11:18:41.850571+02:00"
+    created: "2020-10-14T10:29:23.150095+02:00"
     description: A Helm chart for go-env
     digest: 96b4d3c00f0e90766f60bdcbfe82eafca358ff44ddf5cfcf7a7fff29451c2c95
     name: go-env
     urls:
     - https://damianjaniszewski.github.io/charts/go-env-0.0.2.tgz
     version: 0.0.2
-generated: "2020-08-02T11:18:41.8489+02:00"
+generated: "2020-10-14T10:29:23.149475+02:00"
