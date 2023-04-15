@@ -1,13 +1,12 @@
 URL = https://damianjaniszewski.github.io/charts
 
 SRC_GO = ~/Src/go/src
+HELM_PACKAGES = $(SRC_GO)/go-env/manifests/helm/*.tgz $(SRC_GO)/go-fibo/manifests/helm/*.tgz $(SRC_GO)/rest-collector/manifests/helm/*.tgz
 
-TARGETS = $(SRC_GO)/go-env/manifests/helm/*.tgz $(SRC_GO)/go-fibo/manifests/helm/*.tgz $(SRC_GO)/rest-collector/manifests/helm/*.tgz
+all: copy index
 
-all: $(TARGETS) merge
+copy:
+	cp $(HELM_PACKAGES) ./
 
-$(TARGETS):
-	@cp $@ .
-
-merge:
+index:
 	helm repo index ./ --url $(URL)
