@@ -3,7 +3,7 @@ entries:
   go-env:
   - apiVersion: v1
     appVersion: 0.0.14
-    created: "2023-04-15T12:45:57.162187+02:00"
+    created: "2023-04-15T14:02:19.312054+02:00"
     description: A Helm chart for go-env
     digest: a18536e52d5817dff752eb991e5fd82981fbadb5e49b098985dcec9bca8b0619
     keywords:
@@ -26,7 +26,7 @@ entries:
     version: 0.0.14
   - apiVersion: v1
     appVersion: 0.0.12
-    created: "2023-04-15T12:45:57.161967+02:00"
+    created: "2023-04-15T14:02:19.310523+02:00"
     description: A Helm chart for go-env
     digest: 3c0b680dce3f3f1a58486dbc9da69d2e4e32b38fd15441ba1cee184dac78debd
     keywords:
@@ -49,7 +49,7 @@ entries:
     version: 0.0.12
   - apiVersion: v1
     appVersion: 0.0.12
-    created: "2023-04-15T12:45:57.16173+02:00"
+    created: "2023-04-15T14:02:19.310311+02:00"
     description: A Helm chart for go-env
     digest: be96843fcade588067ee575c6547af3fbf6aba7c8f236174d8c8670b5151bb6a
     keywords:
@@ -72,7 +72,7 @@ entries:
     version: 0.0.12-demo
   - apiVersion: v1
     appVersion: 0.0.12
-    created: "2023-04-15T12:45:57.161153+02:00"
+    created: "2023-04-15T14:02:19.310086+02:00"
     description: A Helm chart for go-env
     digest: 8e365ea9d8a56a31552af118387999cec44519f0e4fbe844ec2f2fd02572b234
     keywords:
@@ -95,7 +95,7 @@ entries:
     version: 0.0.10
   - apiVersion: v1
     appVersion: 0.0.12
-    created: "2023-04-15T12:45:57.167096+02:00"
+    created: "2023-04-15T14:02:19.31316+02:00"
     description: A Helm chart for go-env
     digest: 0ae0a3a7f865a67b297d08d2ad90d781ea886bef9c4a1cdb19311fad66dab177
     keywords:
@@ -118,7 +118,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: 0.0.12
-    created: "2023-04-15T12:45:57.165421+02:00"
+    created: "2023-04-15T14:02:19.312941+02:00"
     description: A Helm chart for go-env
     digest: d9f21039220ed4afcf9391146e50081c76a44c9a2aab7586d067cc90910ebe18
     keywords:
@@ -141,7 +141,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.0.10
-    created: "2023-04-15T12:45:57.163032+02:00"
+    created: "2023-04-15T14:02:19.312728+02:00"
     description: A Helm chart for go-env
     digest: 1771e850ef7f61a2542d9720b57d83438131fe3ead26f92fcd1d6178c156a2fc
     keywords:
@@ -164,7 +164,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: 0.0.10
-    created: "2023-04-15T12:45:57.162582+02:00"
+    created: "2023-04-15T14:02:19.312503+02:00"
     description: A Helm chart for go-env
     digest: 880f824f28d7960bd1c804122071b7466ce2c8d25809b394114916a9610a8744
     name: go-env
@@ -173,7 +173,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.0.10
-    created: "2023-04-15T12:45:57.162393+02:00"
+    created: "2023-04-15T14:02:19.312289+02:00"
     description: A Helm chart for go-env
     digest: 96b4d3c00f0e90766f60bdcbfe82eafca358ff44ddf5cfcf7a7fff29451c2c95
     name: go-env
@@ -183,7 +183,16 @@ entries:
   go-fibo:
   - apiVersion: v1
     appVersion: 0.0.18
-    created: "2023-04-15T12:45:57.170786+02:00"
+    created: "2023-04-15T14:02:19.314506+02:00"
+    description: A Helm chart for go-fibo
+    digest: bddf16c80443948b93c9de1ccfe282a2e758edb5ccc65f40e8a4c4925d62dbcb
+    name: go-fibo
+    urls:
+    - https://damianjaniszewski.github.io/charts/go-fibo-0.0.15.tgz
+    version: 0.0.15
+  - apiVersion: v1
+    appVersion: 0.0.18
+    created: "2023-04-15T14:02:19.314241+02:00"
     description: A Helm chart for go-fibo
     digest: e48f6b61334d6605ff13c5f89fd428d97c70606d5c2569449e32adfc441edca8
     name: go-fibo
@@ -192,7 +201,7 @@ entries:
     version: 0.0.14
   - apiVersion: v1
     appVersion: 0.0.18
-    created: "2023-04-15T12:45:57.16987+02:00"
+    created: "2023-04-15T14:02:19.313982+02:00"
     description: A Helm chart for go-fibo
     digest: 5c90247cb97ecf21f71a4829b2055d2be42677d715865601d1dd5b12f85c0274
     name: go-fibo
@@ -201,7 +210,7 @@ entries:
     version: 0.0.13
   - apiVersion: v1
     appVersion: 0.0.18
-    created: "2023-04-15T12:45:57.169206+02:00"
+    created: "2023-04-15T14:02:19.313784+02:00"
     description: A Helm chart for go-fibo
     digest: 9aa2e18ce548262cd3610e8aa8301dc49f26e7f1c9054dfe99fc7a6cb95bf358
     name: go-fibo
@@ -210,7 +219,7 @@ entries:
     version: 0.0.12
   - apiVersion: v1
     appVersion: 0.0.18
-    created: "2023-04-15T12:45:57.168448+02:00"
+    created: "2023-04-15T14:02:19.313567+02:00"
     description: A Helm chart for go-fibo
     digest: be706746deb621fff16ade96b7907ebdec341428b6e97360c7e0a9fecb355a35
     name: go-fibo
@@ -219,7 +228,7 @@ entries:
     version: 0.0.11
   - apiVersion: v1
     appVersion: 0.0.18
-    created: "2023-04-15T12:45:57.167626+02:00"
+    created: "2023-04-15T14:02:19.313368+02:00"
     description: A Helm chart for go-fibo
     digest: db7182e80d921e79ed949f5932bc9104e1cdec88853f2f1bbe89b4ede3771aa3
     name: go-fibo
@@ -228,7 +237,7 @@ entries:
     version: 0.0.10
   - apiVersion: v1
     appVersion: 0.0.16
-    created: "2023-04-15T12:45:57.171654+02:00"
+    created: "2023-04-15T14:02:19.314905+02:00"
     description: A Helm chart for go-fibo
     digest: a114640f271124a7e4f0a2832e0cb3d860e952a222ae41823a7f694bfb813915
     name: go-fibo
@@ -237,7 +246,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.0.16
-    created: "2023-04-15T12:45:57.171185+02:00"
+    created: "2023-04-15T14:02:19.314704+02:00"
     description: A Helm chart for go-fibo
     digest: fbeade972c177e26318048efcec92bd2a4d65450d1abf9fde914dc287506cbb9
     name: go-fibo
@@ -247,7 +256,7 @@ entries:
   rest-collector:
   - apiVersion: v1
     appVersion: 0.3.0
-    created: "2023-04-15T12:45:57.176982+02:00"
+    created: "2023-04-15T14:02:19.317208+02:00"
     description: A Helm chart for rest-collector
     digest: 331686729056887973efa0edc732a11a6c6018f8f1374dea4d82a12c3d95903a
     name: rest-collector
@@ -256,7 +265,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2023-04-15T12:45:57.176211+02:00"
+    created: "2023-04-15T14:02:19.316961+02:00"
     description: A Helm chart for rest-collector
     digest: 1128fa0b6680745e89ecb9c02389a3564c5aff21d9b708459c393c7dd731f5b5
     name: rest-collector
@@ -265,7 +274,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2023-04-15T12:45:57.175547+02:00"
+    created: "2023-04-15T14:02:19.316685+02:00"
     description: A Helm chart for rest-collector
     digest: 0da8d537794e923e4ff7d8cd063448be5d1327f8a2928e1d90cb0e734ab2f857
     name: rest-collector
@@ -274,7 +283,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2023-04-15T12:45:57.173574+02:00"
+    created: "2023-04-15T14:02:19.315624+02:00"
     description: A Helm chart for rest-collector
     digest: d7db3c6d4535197eff7aea1c97b6905dca8ab5774cf9142105152876dcbd1709
     name: rest-collector
@@ -283,7 +292,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2023-04-15T12:45:57.172768+02:00"
+    created: "2023-04-15T14:02:19.315397+02:00"
     description: A Helm chart for rest-collector
     digest: 492fee9504e93ca7d7f15afb579868eac7459a47a3a5a7b9b8ea628565eebaee
     name: rest-collector
@@ -292,11 +301,11 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.1
-    created: "2023-04-15T12:45:57.172486+02:00"
+    created: "2023-04-15T14:02:19.315155+02:00"
     description: A Helm chart for rest-collector
     digest: 0d1d73a43a746afee12a9d9f63f7d81bae2cf290ba75400df703340de099d34a
     name: rest-collector
     urls:
     - https://damianjaniszewski.github.io/charts/rest-collector-0.1.1.tgz
     version: 0.1.1
-generated: "2023-04-15T12:45:57.159852+02:00"
+generated: "2023-04-15T14:02:19.309439+02:00"
